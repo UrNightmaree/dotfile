@@ -1,0 +1,20 @@
+{
+	"diagnostic.errorSign": "X>",
+	"diagnostic.warningSign": "!>",
+	"diagnostic.infoSign": "i>",
+	"diagnostic.hintSign": "?>",
+
+	"sumneko-lua.serverDir": "/home/UrNightmaree/build/lua-language-server",
+	"Lua.workspace.library": [
+		"/usr/local/share/lua/5.4"
+	],
+
+	"languageserver": {
+		"bash": {
+			"command": "bash-language-server",
+			"args": ["start"],
+			"filetypes": ["sh"],
+			"ignoredRootPaths": ["~"]
+		}
+	}
+}
